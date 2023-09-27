@@ -41,6 +41,9 @@ body {
   align-items: center;
   flex-direction: column;
   color: #fff;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
 }
 
 .left-slide h1 {
