@@ -42,7 +42,7 @@ Treehouse Styling
 body {
   margin: 0;
   font-family: Helvetica;
-  background: url('https://static01.nyt.com/images/2021/05/04/lens/05educationbriefing/04ambriefing-vaccine-superJumbo-v2.jpg?quality=90&auto=webp') top center no-repeat;
+  background: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_32/722311/teen-teenager-vaccine-shot-stock-today-150807-tease.jpg') top center no-repeat;
   background-size: cover;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .logo {
-  background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/treehouse-white.svg') center center no-repeat;
+  /*background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/treehouse-white.svg') center center no-repeat;*/
   width: 195px;
   background-size: contain;
   text-indent: 100%;
