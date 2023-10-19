@@ -27,7 +27,21 @@ $(document).ready(function() {
                   "https://assets.medpagetoday.net/media/images/93xxx/93340.jpg", 
                   "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/vaccines_for_adults_slideshow/getty_rf_hpv_shot.jpg", 
                   "https://i0.wp.com/calmatters.org/wp-content/uploads/2022/05/050522-TEEN-VACCINATION-SJM-TEENVAX-AC-CM.jpg?fit=2000%2C1333&ssl=1", 
-                  "", 
+                  "https://www.metro.us/wp-content/uploads/Reuters_Direct_Media/USOnlineReportWorldNews/tagreuters.com2021binary_LYNXNPEH5K10G-BASEIMAGE.jpg", 
+                  "https://bestcare.org/sites/default/files/styles/large/public/2021-01/teenboyvaccine_0.jpg?itok=3lL8ijLZ", 
+                  "https://th.bing.com/th/id/R.8ccd97f668f11aa811edd78357df1c4a?rik=sKi2VA%2bu3G38Xg&riu=http%3a%2f%2fwww.havesippywilltravel.com%2fwp-content%2fuploads%2f2013%2f05%2fpic-18.jpg&ehk=94XE13Ma0rEr%2bYd1UBUavi%2bvGFboV6tFqjEuvViiM%2f0%3d&risl=&pid=ImgRaw&r=0", 
+                  "https://s.hdnux.com/photos/01/26/17/02/22605980/4/rawImage.jpg", 
+                  "https://hdstatic.net/gridfs/holadoctor/837x0_healthday_2650418673.jpg", 
+                  "https://www.clinicaladvisor.com/wp-content/uploads/sites/11/2021/08/GettyImages-1294009031-860x573.jpg", 
+                  "https://whyy.org/wp-content/uploads/2022/02/AP22026536565815-768x512.jpg", 
+                  "https://www.mother.ly/wp-content/uploads/2021/10/origin-6666.jpg", 
+                  "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_25/3485498/210622-teen-vaccine-jm-1129.jpg", 
+                  "https://riseandshine.childrensnational.org/wp-content/uploads/2021/05/teen-girl-after-getting-COVID-vaccine-feature.png", 
+                  "https://www.ghc.nhs.uk/wp-content/uploads/School-based-vaccination-programme-2.jpg", 
+                  "https://static01.nyt.com/images/2021/05/20/well/well-kids-vaccine/merlin_187939995_66562b46-df7d-45d5-8fda-5f7a099c01ba-superJumbo.jpg?quality=90&auto=webp", 
+                  "https://i.cbc.ca/1.6249800.1637009311!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/aptopix-virus-outbreak-austria.jpg", 
+                  "https://wp.inews.co.uk/wp-content/uploads/2021/09/PRI_197378834.jpg?w=1200&h=675&crop=1", 
+                  "https://i1.wp.com/sanantonioreport.org/wp-content/uploads/2021/05/nickwagner-teen-vaccine-covid-vaccination-uhs-health-20210513-5.jpg?fit=2560%2C1743", 
                   "https://th.bing.com/th/id/R.01910ed98edd9fc8a31ee786ee12bc02?rik=tS%2fdtb0JFbtNCg&riu=http%3a%2f%2fwww.motherjones.com%2fwp-content%2fuploads%2fistock_000018460513_small.jpg%3fw%3d1200%26h%3d630%26crop%3d1&ehk=XGp%2f27u7FH4ocDhLqy8KTuJq%2bG1X%2fSsRqaIXOB4WVyk%3d&risl=&pid=ImgRaw&r=0"]; // replace with your images
 
     function getRandomImage() {
