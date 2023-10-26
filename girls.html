@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        img.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <img class="active" src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <!-- Add more images as needed -->
+
+    <script>
+        var images = Array.from(document.getElementsByTagName('img'));
+        var index = 0;
+
+        function updateImage() {
+            images.forEach(img => img.classList.remove('active'));
+            images[index].classList.add('active');
+        }
+
+        window.addEventListener('keydown', function(event) {
+            switch (event.key) {
+                case 'ArrowUp':
+                case 'ArrowLeft':
+                    index = (index - 1 + images.length) % images.length;
+                    break;
+                case 'ArrowDown':
+                case 'ArrowRight':
+                    index = (index + 1) % images.length;
+                    break;
+            }
+            updateImage();
+        });
+    </script>
+</body>
+</html>
