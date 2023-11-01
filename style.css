@@ -52,12 +52,13 @@ body {
 }
 
 .logo {
-  /*background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/treehouse-white.svg') center center no-repeat;*/
+  background: transparent url('https://th.bing.com/th/id/R.c90a3ef3c84cabb80051a8e5c7e1d746?rik=SdePlQ8Afur%2b1w&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fneedle-transparent%2fneedle-transparent-11.jpg&ehk=GfKYlQhlizhoeHS1l0RcVIeqFMjoAy16i7aa%2bLv3Jbw%3d&risl=&pid=ImgRaw&r=0') center center no-repeat;
   width: 195px;
   background-size: contain;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+  filter: invert(100%) sepia(82%) saturate(0%) hue-rotate(246deg) brightness(111%) contrast(95%);
 }
 
 .nav {
